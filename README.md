@@ -1,1 +1,0 @@
-# MNIST-Alphabet-Superposition-CNN-DACON
