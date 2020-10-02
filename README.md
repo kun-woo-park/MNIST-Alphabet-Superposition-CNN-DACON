@@ -5,6 +5,7 @@
 https://dacon.io/competitions/official/235626/overview/
 ### Data sample
 <img src="./img/data_img.JPG" width="35%">
+
 ## 구현 내용
 
 ### Data Augmentation
