@@ -204,6 +204,6 @@ class Model(torch.nn.Module):
         self.act_21 = nn.ReLU()
         
 ```
-                                                                        
+
 ## 구현 결과
-Custom model의 Validation Accuracy는 대략 94%까지 수렴함을 확인했다. 데이콘의 실제 Test Accuracy값은 88.6% 정도의 결과로, 상위 24%정도에 머물렀지만, 본 경험을 토대로, 위성 사진 물체인식를 다루는 이후의 대회에도 다시 참여하여 조금 더 나아진 실력을 증명해 보려 한다.
+Custom model의 Validation Accuracy는 대략 94%까지 수렴함을 확인했다. 데이콘의 실제 Test Accuracy값은 88.6% 정도의 결과로, 상위 24%정도에 머물렀지만, 본 경험을 토대로, 위성 사진 물체인식를 다루는 이후의 대회에도 다시 참여하여 조금 더 나아진 실력을 증명해 보려 한다.  
