@@ -1,4 +1,9 @@
 # MNIST-Alphabet-Superposition-CNN-DACON
+```bash
+git clone https://github.com/kun-woo-park/MNIST-Alphabet-Superposition-CNN-DACON.git
+cd MNIST-Alphabet-Superposition-CNN-DACON
+python3 Training.py
+```
 
 ## 구현 목적
 본 코드는 데이콘에서 진행된 컴퓨터 비전 학습대회에 기반하여 작성되었다. 먼저 주어진 데이터셋은 아래 사진처럼 알파벳과 숫자가 중첩되어 있는 상태에서, 알파벳 부분은 연하게, 숫자부분은 겹쳐진 부분 이외의 데이터를 지우고, 겹쳐진 부분만 진하게 표시되어 있고, 이런 이미지에 따른 라벨로 알파벳과 숫자가 주어진다. 이렇게 주어진 2048개의 Train set으로 그 10배인 20480개의 Test set의 숫자들을 예측하는 것이 목적이다. 데이터셋은 다음 링크에서 받을 수 있다. 
