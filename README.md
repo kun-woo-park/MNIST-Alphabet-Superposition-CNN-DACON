@@ -78,7 +78,7 @@ data_val.to_csv("val_augmented.csv")
 data_train.to_csv("train_augmented.csv")
 ```
 ### RESNET test
-기본적인 학습의 테스트를 위해 RESNET152 구조의 코드를 사용하여 학습을 진행하였다. 결과 Validation Set에 대한 정확도가 대략 86% 가량까지 수렴하는것을 확인 할 수 있었고, RESNET구조를 지속적으로 가공하여 Custom model을 제작하였다.
+기본적인 학습의 테스트를 위해 RESNET152 구조의 코드를 사용하여 학습을 진행하였다. 그러나 ResNet을 scratch에서 올리기에 앞서 좀 더 얕은 custom model을 만들어서 학습하는 것이 좋을것이라고 생각했고, 이에 VGG network를 흉내내어 custom model을 제작하였다.
 
 ### Custom model
 최종적으로 구현한 모델들 중 가장 높은 성능을 낸 model의 구조는 다음과 같다.
