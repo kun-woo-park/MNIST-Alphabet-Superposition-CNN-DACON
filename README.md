@@ -9,7 +9,7 @@ https://dacon.io/competitions/official/235626/overview/
 ## 구현 내용
 
 ### Data Augmentation
-먼저, 주어진 Train set의 수가 Test set에 비해 월등히 작아, Data Augmentation을 통해 Train set의 양을 늘릴 필요가 있었다. 따라서 Data_Augmentation.ipynb의 내용과 같이 torchvision 라이브러리에서 지원해주는 툴을 사용하여 Data Augmentation을 진행하였다. 코드는 다음과 같다.
+먼저, 주어진 Train set의 수가 Test set에 비해 월등히 작아, Data Augmentation을 통해 Train set의 양을 늘릴 필요가 있었다. 따라서 torchvision 라이브러리에서 지원해주는 툴을 사용하여 Data Augmentation을 진행하였다. 코드는 다음과 같다.
 ```python
 import torch
 import random
